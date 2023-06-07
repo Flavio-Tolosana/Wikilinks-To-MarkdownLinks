@@ -4,14 +4,9 @@
 # Script que cambia los Wikilinks a links normales                                         #
 #                                                                                          #
 # Requisitos:                                                                              #
-#             1. Ejecutarlo script al mismo nivel de la raíz de los archivos obsidian,     #
-#                es decir, que el script y la carpeta de obsidian estén juntos             #
-#             2. Los archivos no pueden tener nombres con espacios                         #
-#             3. Los nombres de los archivos deben de ser único                            #
-#             4. Solo puede haber links a archivos que estén en el mismo nivel o más abajo #
-#             5. Las imagenes solo pueden tener extensiones: jpg, png, gif, bmp, svg       #
+#             1. Se debe ejecutar al mismo nivel que el directorio raiz que se quiere      #
+#                comprobar                                                                 #
 #                                                                                          #
-# Ejemplo de uso:   transformadorLinks.sh <direcotrio Raiz Obsidian>                       #
 ############################################################################################
 
 
@@ -22,7 +17,7 @@ directorioRaiz="$2"
 
 if [ "$#" -ne 2 ]    # No hay dos parámetros
 then
-    echo "USO:     $0 <directorio Actual> <directorio Raiz Obsidian>"
+    echo "USO:     $0 <directorio Raiz Obsidian> <directorio Raiz Obsidian>"
 
 else   # Hay parámetros suficientes
 
