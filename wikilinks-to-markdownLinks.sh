@@ -48,7 +48,7 @@ tranformarImagenes () {
     done
 }
 
-# Caso 2: (!)[[archivo.???]]      [archivo.???](%2FRutaImagen%2Fimagen.???)
+# Caso 2: (!)[[archivo.???]]      [archivo.???](%2FRutaArchivo%2Farchivo.???)
 tranformarArchivosConExtension() {
 
     #ob/Intro-Obsidian/texto.md   (es la ruta del markdown el cual se van a cambiar sus wikilinks)
